@@ -4,8 +4,16 @@ body {
     color: gold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 li {
     list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: gold;
 }
 nav {
     display: grid;
